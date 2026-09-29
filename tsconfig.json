@@ -1,0 +1,13 @@
+{
+  "extends": "@quasar/app-vite/tsconfig-preset",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "es2022",
+
+    "lib": [
+      "es2022",
+      "dom",
+      "dom.iterable" // <- there you are
+    ]
+  }
+}
